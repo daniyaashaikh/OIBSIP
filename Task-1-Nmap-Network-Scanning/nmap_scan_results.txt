@@ -1,0 +1,22 @@
+Microsoft Windows [Version 10.0.26200.7462]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Daniya Shaikh>nmap --version
+Nmap version 7.98 ( https://nmap.org )
+Platform: i686-pc-windows-windows
+Compiled with: nmap-liblua-5.4.8 openssl-3.0.17 nmap-libssh2-1.11.1 nmap-libz-1.3.1 nmap-libpcre2-10.45 Npcap-1.83 nmap-libdnet-1.18.0 ipv6
+Compiled without:
+Available nsock engines: iocp poll select
+
+C:\Users\Daniya Shaikh>nmap localhost
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-01-03 17:11 +0530
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
